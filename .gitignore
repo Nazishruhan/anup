@@ -1,2 +1,14 @@
 # dependencies
 vendor
+# API keys, secrets, credentials, databases (appended 2026-11-14)
+.env
+.env.*
+*.key
+*.pem
+config.php
+*.sqlite
+*.db
+*secret*
+*.log
+
+.hq-key
